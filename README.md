@@ -42,7 +42,7 @@ use srag\LibraryLanguageInstaller\x\LibraryLanguageInstaller;
     public function updateLanguages(/*?array*/ $a_lang_keys = null)/*:void*/ {
 		parent::updateLanguages($a_lang_keys);
 
-		LibraryLanguageInstaller::getInstance()->withPlugin(self::plugin())->withLibraryLanguageDirectory(__DIR__ . "/../doc/vendor/srag/x/lang")
+		LibraryLanguageInstaller::getInstance()->withPlugin(self::plugin())->withLibraryLanguageDirectory(__DIR__ . "/../vendor/srag/x/lang")
 			->updateLanguages($a_lang_keys);
 	}
 ...
