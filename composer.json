@@ -11,10 +11,10 @@
   },
   "type": "library",
   "keywords": [
-    "ILIAS",
-    "Installer",
-    "Language",
-    "Library"
+    "ilias",
+    "installer",
+    "language",
+    "library"
   ],
   "homepage": "https://github.com/studer-raimann/LibraryLanguageInstaller",
   "license": "GPL-3.0-only",
